@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "?"// البرفكس هنا
+var prefix = "#"// البرفكس هنا
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -27,9 +27,9 @@ client.on('ready', () => {
   console.log('')
 });
 
-const AllwaiDiamondCodes = ['498630971562917888' , '195088897234042880'];
+const AllwaiDiamondCodes = ['383606619671494659' , '383606619671494659'];
 client.on('message', message => {
-var prefix = "-";
+var prefix = "#";
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
     var argresult = message.content.split(` `).slice(1).join(' ');
