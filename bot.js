@@ -1712,5 +1712,16 @@ ${thisMessage}\`\`\`
 
     })}});
 
+client.on ("guildMemberAdd", member => {
+  
+   var role = member.guild.roles.find ("name", "• Diamond » Member");
+   member.addRole (role);
+  
+})
+
+client.on ("guildMemberRemove", member => {
+   
+}) 
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
