@@ -9,6 +9,18 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : Diamond Codes`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`#help | By X_KillerYT`,"http://twitch.tv/S-F")
+client.user.setStatus("online")
+ 
+});
+
 client.on("message", message => {    
           if(!message.channel.guild) return;
    if(message.author.bot) return;
