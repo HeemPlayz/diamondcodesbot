@@ -1131,32 +1131,6 @@ if (message.content === prefix + 'help-eris') {
     }
 });
 
-
-  client.on('message', message => {
-if (message.content === prefix + 'help-io') {
-          const embed = new Discord.RichEmbed()
-  
-
-   .setColor('RANDOM')
-  .setTimestamp()
-
-  .addField("╔[❖════════════❖]╗",' ‎ ')
- .addField("      تحت الصيانه     ",' ‎ ')
- .addField("  ╚[❖════════════❖]╝`⦁",' ‎ ')
-
- .setFooter('Discord.JPEI')
-
-
-   message.channel.send({embed});
-
-
-    }
-});
-
-
-
-
-
 var guilds = {};
 
 client.on('message',async message => {
