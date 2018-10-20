@@ -89,7 +89,8 @@ client.on("message", message => {
      .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
 	   .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
 	 	   .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
-		   	   .addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
+            .addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
+                 .addField("❧  **#help-js-games        ➺      ⦁ قسم اكواد الالعاب** ⦁",' ‎ ')
  .setFooter('Discord.JPEI')
 
 
@@ -1865,6 +1866,104 @@ Room.send(`
 }
 
 });
+
+client.on('message', message => {
+  if (message.author.bot) return;
+   if (message.content  === prefix + "help-js-games") {
+        const embed = new Discord.RichEmbed()
+
+
+ .setColor('RANDOM')
+.setTimestamp()
+
+.addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
+.addField("**#help-js-games-1  ➺      ⦁ لعبة اسئلة فورت نايت**⦁",' ‎ ')
+ .addField("**#help-js-games-2  ➺      ⦁ لعبة صراحة** ⦁",' ‎ ')
+     .addField("**#help-js-games-2  ➺      ⦁ لعبة كت تويت** ⦁",' ‎ ')
+       .addField("**#help-js-games-2  ➺      ⦁ لعبة لو خيروك** ⦁",' ‎ ')
+   .setFooter('Discord.JPEI')
+
+
+   message.channel.send({embed});
+
+
+    }
+});
+   client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-js-games-1") {
+		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 
+ ❖ **كود اسئلة لعبة فورت نايت**
+ https://pastebin.com/ycDVzyup
+
+`);
+
+    }
+});  
+
+client.on('message', message => {
+  if (message.author.bot) return;
+   if (message.content === prefix + "help-js-games-2") {
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+          
+
+   
+
+
+message.author.sendMessage(`
+
+❖ **كود لعبة صراحة**
+https://pastebin.com/sgtxADHu
+
+`);
+
+  }
+}); 
+
+client.on('message', message => {
+  if (message.author.bot) return;
+   if (message.content === prefix + "help-js-games-3") {
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+          
+
+   
+
+
+message.author.sendMessage(`
+
+❖ **كود لعبة كت تويت**
+https://paste.drhack.net/?ea5251c741026c3d#B/AW3E7mlppg8obzbnEIGgbjSc6PRFHnDqBTeOk+svw=
+
+`);
+
+  }
+}); 
+
+client.on('message', message => {
+  if (message.author.bot) return;
+   if (message.content === prefix + "help-js-games-4") {
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+          
+
+   
+
+
+message.author.sendMessage(`
+
+❖ **كود لعبة لو خيروك**
+https://paste.drhack.net/?eae21f05292515ca#Q0wYzgc1EWSI9aPafHGGTpKqLN9yypU02d/5BSnmp/M=
+
+`);
+
+  }
+}); 
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
