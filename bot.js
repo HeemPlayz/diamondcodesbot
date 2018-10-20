@@ -138,7 +138,7 @@ client.on("message", message => {
  message.author.sendMessage(`
  
  ❖ **كود السورس الأساسي**
-https://pastebin.com/xGu8E5jA
+ https://pastebin.com/xGu8E5jA
 
 `);
 
@@ -172,7 +172,7 @@ https://pastebin.com/xGu8E5jA
  message.author.sendMessage(`
  
  ❖ **السورس الأساسي مع الستريمنق ومعلومات البوت**
-https://pastebin.com/rJCgs6he
+ https://pastebin.com/rJCgs6he
 
 `);
 
@@ -195,7 +195,7 @@ https://pastebin.com/rJCgs6he
  message.author.sendMessage(`
  
  ❖ **السورس الأساسي مع الواتشينق**
-https://pastebin.com/pYgG5HRi
+ https://pastebin.com/pYgG5HRi
 
 `);
 
@@ -216,7 +216,7 @@ https://pastebin.com/pYgG5HRi
  message.author.sendMessage(`
  
  ❖ **السورس الاساسي مع البنق**
-https://pastebin.com/1pX8Zdrw
+ https://pastebin.com/1pX8Zdrw
 
 `);
 
@@ -271,7 +271,7 @@ https://pastebin.com/1pX8Zdrw
  message.author.sendMessage(`
  
  ❖ **كود الباند**
-https://pastebin.com/YZAXKYUB
+ https://pastebin.com/YZAXKYUB
 `);
 
     }
@@ -292,7 +292,7 @@ https://pastebin.com/YZAXKYUB
  message.author.sendMessage(`
  
  ❖ **كود الكيك**
-https://pastebin.com/0cNVLm1a
+ https://pastebin.com/0cNVLm1a
 `);
 
     }
@@ -312,7 +312,7 @@ https://pastebin.com/0cNVLm1a
  message.author.sendMessage(`
  
  ❖ **كود مسح الشات ( الكلير ) نفس سبيد بوت**
-https://pastebin.com/QERKkTtk
+ https://pastebin.com/QERKkTtk
 `);
 
     }
@@ -334,7 +334,7 @@ https://pastebin.com/QERKkTtk
  message.author.sendMessage(`
  
  ❖ **كود فتح وتقفيل الشات**
-https://pastebin.com/gb4me9bS
+ https://pastebin.com/gb4me9bS
 `);
 
     }
@@ -409,7 +409,7 @@ https://pastebin.com/gb4me9bS
  message.author.sendMessage(`
  
  ❖ **invite : كود دعوه البوت مثال **
-https://pastebin.com/hP9VQpFR
+ https://pastebin.com/hP9VQpFR
 `);
 
     }
@@ -485,7 +485,7 @@ https://pastebin.com/hP9VQpFR
  message.author.sendMessage(`
  
  ❖ **كود القرعة**
-https://pastebin.com/eZHv8NPC
+ https://pastebin.com/eZHv8NPC
 `);
 
     }
@@ -507,7 +507,7 @@ https://pastebin.com/eZHv8NPC
  message.author.sendMessage(`
  
  ❖ **كود الافاتار**
-https://pastebin.com/aBzSWJxy
+ https://pastebin.com/aBzSWJxy
 `);
 
     }
@@ -698,7 +698,7 @@ https://paste.drhack.net/?854e74d128b66da8#3menzqbk4bSRPItx7czUQhc1iuwjQRZTyaEVF
  message.author.sendMessage(`
  
  ❖ **كود مغادرة العضو**
-https://pastebin.com/8Da43txR
+ https://pastebin.com/8Da43txR
 `);
 
     }
@@ -745,7 +745,7 @@ https://pastebin.com/8Da43txR
  message.author.sendMessage(`
  
  ❖ **كود هلب مع امبد يرسل بالخاص**
-https://pastebin.com/ZC0FHb0c
+ https://pastebin.com/ZC0FHb0c
 `);
 
     }
@@ -765,7 +765,7 @@ https://pastebin.com/ZC0FHb0c
  message.author.sendMessage(`
  
  ❖ **كود هلب بدون امبد ويرسل عالخاص**
-https://pastebin.com/MuCMUQYc
+ https://pastebin.com/MuCMUQYc
 `);
 
     }
@@ -821,7 +821,7 @@ https://pastebin.com/MuCMUQYc
  message.author.sendMessage(`
  
  ❖ **برودكاست + للكل **
-https://pastebin.com/n2SyjdwH
+ https://pastebin.com/n2SyjdwH
 `);
 
     }
@@ -841,7 +841,7 @@ https://pastebin.com/n2SyjdwH
  message.author.sendMessage(`
  
  ❖ **برودكاست + للكل + غير مطور**
-https://pastebin.com/n2SyjdwH
+ https://pastebin.com/n2SyjdwH
 `);
 
     }
@@ -862,7 +862,7 @@ https://pastebin.com/n2SyjdwH
  message.author.sendMessage(`
  
  ❖ ** برودكاست + للأونلاين + مع منشن + غير مطور**
-https://pastebin.com/n2SyjdwH
+ https://pastebin.com/n2SyjdwH
 `);
 
     }
@@ -883,7 +883,7 @@ https://pastebin.com/n2SyjdwH
  message.author.sendMessage(`
  
  ❖ **برودكاست + للكل + مع منشن + غير مطور**
-https://pastebin.com/n2SyjdwH
+ https://pastebin.com/n2SyjdwH
 `);
 
     }
