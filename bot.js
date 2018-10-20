@@ -1611,8 +1611,8 @@ client.on('message', message => {
 .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
 .addField("**#help-js-games-1  ➺      ⦁ لعبة اسئلة فورت نايت**⦁",' ‎ ')
  .addField("**#help-js-games-2  ➺      ⦁ لعبة صراحة** ⦁",' ‎ ')
-     .addField("**#help-js-games-2  ➺      ⦁ لعبة كت تويت** ⦁",' ‎ ')
-       .addField("**#help-js-games-2  ➺      ⦁ لعبة لو خيروك** ⦁",' ‎ ')
+     .addField("**#help-js-games-3  ➺      ⦁ لعبة كت تويت** ⦁",' ‎ ')
+       .addField("**#help-js-games-4  ➺      ⦁ لعبة لو خيروك** ⦁",' ‎ ')
    .setFooter('Discord.JPEI')
 
 
