@@ -16,7 +16,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#help | DiamondCodes`,"http://twitch.tv/S-F")
+client.user.setGame(`#help-js | DiamondCodes`,"http://twitch.tv/S-F")
 client.user.setStatus("online")
  
 });
