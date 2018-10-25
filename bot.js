@@ -1143,7 +1143,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-js");
+  let jscodes = message.guild.channels.find(`name`, "• Alpha » Support");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -1253,7 +1253,7 @@ if(!message.channel.guild) return message.reply(' ');
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-**Diamond Codes© ⬇**
+**Alpha Codes© ⬇**
 
 \`\`\`js
 
@@ -1295,11 +1295,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Diamond » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-file-html");
+  let jscodes = message.guild.channels.find(`name`, "✽-html");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -1409,7 +1409,7 @@ if(!message.channel.guild) return message.reply(' ');
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-**Diamond Codes© ⬇**
+**Alpha Codes© ⬇**
 
 \`\`\`html
 
@@ -1445,16 +1445,6 @@ ${thisMessage}\`\`\`
 
     })}});
 
-client.on ("guildMemberAdd", member => {
-  
-   var role = member.guild.roles.find ("name", "• Diamond » Member");
-   member.addRole (role);
-  
-})
-
-client.on ("guildMemberRemove", member => {
-   
-}) 
 
 client.on('message', async rokz => {
 
