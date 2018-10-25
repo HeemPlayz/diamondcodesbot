@@ -171,7 +171,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-html");
+  let jscodes = message.guild.channels.find(`name`, '✻-html');
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
