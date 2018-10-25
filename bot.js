@@ -39,14 +39,9 @@ client.user.setStatus("online")
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
-  .addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
-   .addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
-     .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
-	   .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
-	 	   .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
-            .addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
-                 .addField("❧  **#help-js-games        ➺      ⦁ قسم اكواد الالعاب** ⦁",' ‎ ')
+  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁")
+            .addField("⦁#html")
+                 .addField("⦁#js")
  .setFooter('Discord.JPEI')
 
 
@@ -65,14 +60,9 @@ client.on('message', message => {
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁",' ‎ ')
-  .addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
-   .addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
-     .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
-	   .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
-	 	   .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
-            .addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
-                 .addField("❧  **#help-js-games        ➺      ⦁ قسم اكواد الالعاب** ⦁",' ‎ ')
+  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁")
+            .addField("⦁#html")
+                 .addField("⦁#js")
  .setFooter('Discord.JPEI')
 
 
