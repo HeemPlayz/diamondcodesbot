@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client();
 const prefix = "#";
-const devs = ['383606619671494659' , '252813587188416512' , '383606619671494659' , ''];
+const devs = ['492552276326481930' , '488389313365540864' , '383606619671494659' , ''];
 const adminprefix = "#";
 
 client.on('ready', () => {
