@@ -32,7 +32,7 @@ client.user.setStatus("online")
   
    client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content  === prefix + "help-js") {
+     if (message.content  === prefix + "help-js || help") {
           const embed = new Discord.RichEmbed()
   
 
