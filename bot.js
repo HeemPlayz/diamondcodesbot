@@ -33,7 +33,7 @@ client.user.setStatus("online")
    client.on('message', message => {
     if (message.author.bot) return;
      if (message.content.startWith("#help-js")) 
-          const embed = new Discord.RichEmbed()
+          var embed = new Discord.RichEmbed()
   
 
    .setColor('RANDOM')
@@ -86,7 +86,7 @@ lient.on('message', message => {
      client.on('message', message => {
     if (message.author.bot) return;
      if (message.content.startWith("#help-js-source")) {
-          const embed = new Discord.RichEmbed()
+          var embed = new Discord.RichEmbed()
   
 
    .setColor('RANDOM')
