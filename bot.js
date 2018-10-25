@@ -59,7 +59,7 @@ client.user.setStatus("online")
 lient.on('message', message => {
     if (message.author.bot) return;
      if (message.content.startWith("#help")) 
-          const embed = new Discord.RichEmbed()
+          var embed = new Discord.RichEmbed()
   
 
    .setColor('RANDOM')
