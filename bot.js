@@ -32,7 +32,7 @@ client.user.setStatus("online")
   
    client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content  === prefix + "help-js || help") {
+     if (message.content.startWith("#help-js || #help")) {
           const embed = new Discord.RichEmbed()
   
 
@@ -59,7 +59,7 @@ client.user.setStatus("online")
   
      client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content  === prefix + "help-js-source") {
+     if (message.content.startWith("#help-js-source")) {
           const embed = new Discord.RichEmbed()
   
 
@@ -85,7 +85,7 @@ client.user.setStatus("online")
   
   client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content === prefix + "help-js-source-1") {
+     if (message.content.startWith("#help-js-source-1")) {
 		 message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
             
 	
