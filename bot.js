@@ -53,7 +53,7 @@ client.user.setStatus("online")
    message.channel.send({embed});
 
 
-    }
+    
 });
 
 lient.on('message', message => {
@@ -79,7 +79,7 @@ lient.on('message', message => {
    message.channel.send({embed});
 
 
-    }
+    
 });
   
   
