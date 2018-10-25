@@ -17,59 +17,7 @@ client.on('ready', () => {
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`#help-js | Alpha-Codes`,"http://twitch.tv/S-F")
-client.user.setStatus("online")
- 
-});
-
-
-
-
-
-
-  
-  
-  
-  
-   client.on('message', message => {
-     if (message.content.startWith("#help-js")) 
-          var embed = new Discord.RichEmbed()
-  
-
-   .setColor('RANDOM')
-  .setTimestamp()
-
-  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁")
-            .addField("⦁#html")
-                 .addField("⦁#js")
- .setFooter('Discord.JPEI')
-
-
-   message.channel.send({embed});
-
-
-    
-});
-
-client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content.startWith("#help")) 
-          var embed = new Discord.RichEmbed()
-  
-
-   .setColor('RANDOM')
-  .setTimestamp()
-
-  .addField("⦁`All types of codes in D.JPEI Server 💬`⦁")
-            .addField("⦁#html")
-                 .addField("⦁#js")
- .setFooter('Discord.JPEI')
-
-
-   message.channel.send({embed});
-
-
-    
-});
+client.user.setStatus("online!")
   
   
      client.on('message', message => {
