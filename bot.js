@@ -13,7 +13,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة **');
 
   let jscodes = message.guild.channels.find(`name`, "✻-discord-js");
 
@@ -124,7 +124,6 @@ if(!message.channel.guild) return message.reply(' ');
           jscodes.send(`@everyone | @here
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 **Alpha Codes© ⬇**
 
 \`\`\`js
@@ -169,7 +168,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة**');
 
   let jscodes = message.guild.channels.find(`name`, '✻-html');
 
@@ -280,7 +279,6 @@ if(!message.channel.guild) return message.reply(' ');
           jscodes.send(`@everyone | @here
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 **Alpha Codes© ⬇**
 
 \`\`\`html
