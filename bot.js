@@ -369,7 +369,7 @@ client.on('message', async rokz => {
 [${time}]
 [${lang}]`)
 
-              let rokzz = rokz.guild.channels.find("name","submissions")
+              let rokzz = rokz.guild.channels.find("name","#✻-التقديمات")
 
               setTimeout(() => {
 
@@ -415,7 +415,7 @@ let Room = client.channels.get('503116166936395787');
 
 if(message.content.startsWith(prefix + "رفض")) {
 
-if(message.guild.id !== '503116166936395787') return;
+if(message.guild.id !== '488858291544522753') return;
 
  if (!message.member.hasPermission("MANAGE_ROLES")) return message.reply("**للأسف ليس لديك صلاحية**").then(msg => msg.delete(5000));
 
@@ -442,7 +442,7 @@ let Room = client.channels.get('503116166936395787');
 
 if(message.content.startsWith(prefix + "قبول")) {
 
-if(message.guild.id !== '503116166936395787') return;
+if(message.guild.id !== '488858291544522753') return;
 
  if (!message.member.hasPermission("MANAGE_ROLES")) return message.reply("**للأسف ليس لديك صلاحية**").then(msg => msg.delete(5000));
 
