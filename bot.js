@@ -369,7 +369,7 @@ client.on('message', async rokz => {
 [${time}]
 [${lang}]`)
 
-              let rokzz = rokz.guild.channels.find("name","#✻-التقديمات")
+              let rokzz = rokz.guild.channels.find("name","✻-التقديمات")
 
               setTimeout(() => {
 
