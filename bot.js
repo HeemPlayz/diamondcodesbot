@@ -6,6 +6,11 @@ const prefix = "#";
 const devs = ['492552276326481930', '349095859859881984'];
 let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
 
+
+var cooldownGames = new Set();
+var cooldownSurvival = new Set();
+var cooldownSetName = new Set();
+
 client.on('message', message => {
 	var args = message.content.split(' ');
 	var args1 = message.content.split(' ').slice(1).join(' ');
