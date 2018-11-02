@@ -77,6 +77,7 @@ client.on('message', message => {
 			message.reply(`\`\`${args1}\`\` **تم تغيير حالة البث الى**`).then(msg => msg.delete(5000));
 			message.delete();
 		};
+	});
 
 var guilds = {};
 
