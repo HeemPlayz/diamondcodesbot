@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client();
 const fs = require('fs');
+const ms = require('ms');
 const prefix = "#";
 const devs = ['492552276326481930', '349095859859881984'];
 let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
