@@ -78,7 +78,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة **');
 
-  let jscodes = message.guild.channels.find(`name`, "✻-discord-js");
+  let jscodes = message.guild.channels.find(`name`, "✽-discord-js");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -233,7 +233,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة**');
 
-  let jscodes = message.guild.channels.find(`name`, '✻-html');
+  let jscodes = message.guild.channels.find(`name`, '✽-html');
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
