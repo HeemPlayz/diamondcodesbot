@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client();
+const fs = require('fs');
 const prefix = "#";
 let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
 
