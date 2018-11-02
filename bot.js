@@ -74,7 +74,7 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-   let rank = message.guild.member(message.author).roles.find('name', '• Supreme » Support');
+   let rank = message.guild.member(message.author).roles.find('name', '•  Supreme » Support');
 
   if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة **');
 
@@ -229,7 +229,7 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Supreme » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '•  Supreme » Support');
 
   if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة**');
 
