@@ -3,7 +3,80 @@ const moment = require('moment');
 const client = new Discord.Client();
 const fs = require('fs');
 const prefix = "#";
+const devs = ['492552276326481930', '349095859859881984'];
 let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
+
+client.on('message', message => {
+	var args = message.content.split(' ');
+	var args1 = message.content.split(' ').slice(1).join(' ');
+	var args2 = message.content.split(' ')[2];
+	var args3 = message.content.split(' ').slice(3).join(' ');
+	var command = message.content.toLowerCase().split(" ")[0];
+	var games = JSON.parse(fs.readFileSync('./games/games.json', 'utf8'));
+	var muf = message.mentions.users.first();
+	
+	if(message.author.bot) return;
+	if(message.channel.type === 'dm') return;
+	
+// كود تغيير الاسم والافتار وحالة اللعب
+	if(command == prefix + 'setname') {
+		let timecooldown = '1hour';
+		if(!devs.includes(message.author.id)) return;
+		if(cooldownSetName.has(message.author.id)) return message.reply(`**${ms(ms(timecooldown))}** يجب عليك الانتظار`);
+		if(!args1) return message.channel.send(`** ↝ Useage:** ${prefix}setname \`\`Heem Games\`\``).then(msg => msg.delete(7000));
+		if(args1 == client.user.username) return message.reply('**البوت مسمى من قبل بهذا الاسم**').then(msg => msg.delete(5000));
+		
+		cooldownSetName.add(message.author.id);
+		client.user.setUsername(args1);
+		message.reply(`\`\`${args1}\`\` **تم تغيير اسم البوت الى**`);
+		
+		setTimeout(function() {
+			cooldownSetName.delete(message.author.id);
+		}, ms(timecooldown));
+	}
+		if(command == prefix + 'setavatar') {
+			if(!devs.includes(message.author.id)) return;
+			if(!args1) return message.channel.send(`** ↝ Useage:** ${prefix}setavatar \`\`Link\`\``).then(msg => msg.delete(7000));
+			
+			client.user.setAvatar(args1).catch(err => console.log(err)).then
+			return message.reply('**حاول مرة اخرى في وقت لاحق**').then(msg => msg.delete(5000));
+			
+			let avatarbot = new Discord.RichEmbed()
+			.setTitle(`:white_check_mark: **تم تغيير صورة البوت الى**`)
+			.setImage(args1)
+			.setTimestamp()
+			.setFooter(`by: ${message.author.username}#${message.author.discriminator}`, message.author.avatarURL)
+			message.channel.send(avatarbot).then(msg => msg.delete(7000));
+			message.delete();
+		}
+		if(command == prefix + 'setplay') {
+			if(!devs.includes(message.author.id)) return;
+			if(!args1) return message.channel.send(`** ↝ Useage:** ${prefix}setplay \`\`Heem Games\`\``).then(msg => msg.delete(7000));
+			client.user.setActivity(args1);
+			message.reply(`\`\`${args1}\`\` **تم تغيير حالة اللعب الى**`).then(msg => msg.delete(5000));
+			message.delete();
+		};
+		if(command == prefix + 'setwatch') {
+			if(!devs.includes(message.author.id)) return;
+			if(!args1) return message.channel.send(`** ↝ Useage:** ${prefix}setwatch \`\`Heem Games\`\``).then(msg => msg.delete(7000));
+			client.user.setActivity(args1, { type: 'WATCHING' });
+			message.reply(`\`\`${args1}\`\` **تم تغيير حالة المشاهدة الى**`).then(msg => msg.delete(5000));
+			message.delete();
+		};
+		if(command == prefix + 'setlisten') {
+			if(!devs.includes(message.author.id)) return;
+			if(!args1) return message.channel.send(`** ↝ Useage:** ${prefix}setlisten \`\`Heem Games\`\``).then(msg => msg.delete(7000));
+			client.user.setActivity(args1, { type: 'LISTENING' });
+			message.reply(`\`\`${args1}\`\` **تم تغيير حالة السماع الى**`).then(msg => msg.delete(5000));
+			message.delete();
+		};
+	    if(command == prefix + 'setstream') {
+			if(!devs.includes(message.author.id)) return;
+			if(!args1) return message.channel.send(`** ↝ Useage:** ${prefix}setstream \`\`Heem Games\`\``).then(msg => msg.delete(7000));
+			client.user.setActivity(args1, 'https://www.twitch.tv/xiaboodz_');
+			message.reply(`\`\`${args1}\`\` **تم تغيير حالة البث الى**`).then(msg => msg.delete(5000));
+			message.delete();
+		};
 
 var guilds = {};
 
