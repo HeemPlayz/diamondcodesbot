@@ -8,7 +8,7 @@
   },
   "dependencies": {
    "discord.js": "^11.3.2",
-    "fs": "^0.0.2",
+    "fs": "0.0.2",
     "giphy-api": "1.2.7",
     "math-expression-evaluator":"1.2.17",
     "common-tags":"1.7.2",
