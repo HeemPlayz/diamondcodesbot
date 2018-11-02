@@ -187,7 +187,7 @@ if(!message.channel.guild) return message.reply(' ');
           jscodes.send(`@everyone | @here
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Alpha Codes© ⬇**
+**Supreme Codes© ⬇**
 
 \`\`\`js
 
@@ -342,7 +342,7 @@ if(!message.channel.guild) return message.reply(' ');
           jscodes.send(`@everyone | @here
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Alpha Codes© ⬇**
+**Supreme Codes© ⬇**
 
 \`\`\`html
 
