@@ -12,7 +12,7 @@ client.on('message', message => {
 	var args2 = message.content.split(' ')[2];
 	var args3 = message.content.split(' ').slice(3).join(' ');
 	var command = message.content.toLowerCase().split(" ")[0];
-	var games = JSON.parse(fs.readFileSync('./games/games.json', 'utf8'));
+	var games = JSON.parse(fs.readFileSync('./supreme.json', 'utf8'));
 	var muf = message.mentions.users.first();
 	
 	if(message.author.bot) return;
