@@ -11,9 +11,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
+   let rank = message.guild.member(message.author).roles.find('name', '• Supreme » Support');
 
-  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة **');
+  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة **');
 
   let jscodes = message.guild.channels.find(`name`, "✻-discord-js");
 
@@ -166,9 +166,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• Supreme » Support');
 
-  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة**');
+  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة**');
 
   let jscodes = message.guild.channels.find(`name`, '✻-html');
 
@@ -458,6 +458,12 @@ Room.send(`
 }
 
 });
+
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag} !`);
+          client.user.setActivity("#js | #html",{type: 'WATCHING'});
+  
+  });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
