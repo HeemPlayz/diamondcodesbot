@@ -280,6 +280,10 @@ ${thisMessage}\`\`\`
 **تم النشر بواسطة**: ${message.author}
 
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+.then(msg => {
+        msg.react('✅')
+        msg.react('❌')
+    })  
 
         }
 
@@ -435,6 +439,10 @@ ${thisMessage}\`\`\`
 **تم النشر بواسطة**: ${message.author}
 
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+.then(msg => {
+        msg.react('✅')
+        msg.react('❌')
+    })  
 
         }
 
