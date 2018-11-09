@@ -400,11 +400,11 @@ client.on('message',async message => {
 
 let mention = message.mentions.members.first();
 
-let Room = client.channels.get('507801063185842183');
+let Room = client.channels.get('510535749825724416');
 
 if(message.content.startsWith(prefix + "رفض")) {
 
-if(message.guild.id !== '507504573066379295') return;
+if(message.guild.id !== '487742119851589642') return;
 
  if (!message.member.hasPermission("MANAGE_ROLES")) return message.reply("**للأسف ليس لديك صلاحية**").then(msg => msg.delete(5000));
 
@@ -427,11 +427,11 @@ client.on('message',async message => {
 
 let mention = message.mentions.members.first();
 
-let Room = client.channels.get('507801063185842183');
+let Room = client.channels.get('510535749825724416');
 
 if(message.content.startsWith(prefix + "قبول")) {
 
-if(message.guild.id !== '507504573066379295') return;
+if(message.guild.id !== '487742119851589642') return;
 
  if (!message.member.hasPermission("MANAGE_ROLES")) return message.reply("**للأسف ليس لديك صلاحية**").then(msg => msg.delete(5000));
 
