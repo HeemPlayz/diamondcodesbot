@@ -10,14 +10,14 @@ let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
 client.on('guildMemberAdd', member => {
     const botCount = member.guild.members.filter(m=>m.user.bot).size
     const memberCount = [member.guild.memberCount] - [botCount]
-    client.channels.get('510406458261635093').setName(`⟫『 ${memberCount} عدد الاعضاء 』⟪`);
+    client.channels.get('506798850414084118').setName(`⟫『 ${memberCount} عدد الاعضاء 』⟪`);
     client.channels.get('510406508857786372').setName(`⟫『 ${botCount} عدد البوتات 』⟪`);
 });
 
 client.on('guildMemberRemove', member => {
     const botCount = member.guild.members.filter(m=>m.user.bot).size
     const memberCount = [member.guild.memberCount] - [botCount]
-    client.channels.get('510406458261635093').setName(`⟫『 ${memberCount} عدد الاعضاء 』⟪`);
+    client.channels.get('506798850414084118').setName(`⟫『 ${memberCount} عدد الاعضاء 』⟪`);
     client.channels.get('510406508857786372').setName(`⟫『 ${botCount} عدد البوتات 』⟪`);
 });
 
@@ -169,11 +169,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-   let rank = message.guild.member(message.author).roles.find('name', '•  Supreme » Support');
+   let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
 
-  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة **');
+  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة **');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-js");
+  let jscodes = message.guild.channels.find(`name`, "✻-discord-js");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -324,11 +324,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '•  Supreme » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '•  Alpha » Support');
 
-  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Supreme >> Support يجب ان تمتلك رتبة**');
+  if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة**');
 
-  let jscodes = message.guild.channels.find(`name`, '✽-html');
+  let jscodes = message.guild.channels.find(`name`, '✻-html');
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
