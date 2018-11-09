@@ -282,7 +282,7 @@ if(!message.channel.guild) return message.reply(' ');
           jscodes.send(`@everyone | @here
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Supreme Codes© ⬇**
+**Alpha Codes© ⬇**
 
 \`\`\`js
 
@@ -437,7 +437,7 @@ if(!message.channel.guild) return message.reply(' ');
           jscodes.send(`@everyone | @here
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Supreme Codes© ⬇**
+**Alpha Codes© ⬇**
 
 \`\`\`html
 
