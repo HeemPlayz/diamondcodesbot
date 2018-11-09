@@ -7,20 +7,6 @@ const prefix = "#";
 const devs = ['492552276326481930', '349095859859881984'];
 let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
 
-client.on('guildMemberAdd', member => {
-    const botCount = member.guild.members.filter(m=>m.user.bot).size
-    const memberCount = [member.guild.memberCount] - [botCount]
-    client.channels.get('506798850414084118').setName(`⟫『 ${memberCount} عدد الاعضاء 』⟪`);
-    client.channels.get('510406508857786372').setName(`⟫『 ${botCount} عدد البوتات 』⟪`);
-});
-
-client.on('guildMemberRemove', member => {
-    const botCount = member.guild.members.filter(m=>m.user.bot).size
-    const memberCount = [member.guild.memberCount] - [botCount]
-    client.channels.get('506798850414084118').setName(`⟫『 ${memberCount} عدد الاعضاء 』⟪`);
-    client.channels.get('510406508857786372').setName(`⟫『 ${botCount} عدد البوتات 』⟪`);
-});
-
 
 
 var cooldownGames = new Set();
