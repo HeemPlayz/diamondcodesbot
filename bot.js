@@ -575,7 +575,7 @@ if(!message.channel.guild) return message.reply(' ');
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 **Alpha Codes© ⬇**
 
-\`\`\`html
+\`\`\`JS
 
 ${thisMessage}\`\`\`
 
