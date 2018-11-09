@@ -324,7 +324,7 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '•  Alpha » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• Alpha » Support');
 
   if (!rank) return message.channel.send('🛑 **| لإستخدام الأمر Alpha >> Support يجب ان تمتلك رتبة**');
 
